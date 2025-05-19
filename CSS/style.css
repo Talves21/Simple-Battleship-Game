@@ -1,0 +1,31 @@
+header {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+main {
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.playButton {
+    background-color: lightgrey;
+    border-radius: 10%;
+}
+
+.grid {
+    display: table;
+}
+
+.row1 {
+    display: table-row;
+}
+
+.block {
+    background-color: white;
+    border: 2px solid black;
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+}
