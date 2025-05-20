@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./CSS/bootstrap.css">
 </head>
 <body>
-    <header role="banner" class="container-fluid text-center">
-        <h1 class="pb-5">Battleship</h1>
+    <header role="banner" class="container-fluid">
+        <h1 class="pb-5 pe-3 text-center">Battleship</h1>
     </header>
 
     <main role="main" class="container-fluid">
-        <section class="row pt-5 grid">
+        <p class="text-center fs-3">Find the Battleship.</p>
+
+        <section class="row pt-5 me-5 grid">
             <div class="col-5"></div>
             <div class="col-7 tableRow">
                 <div class="block" id="block1"></div>
@@ -34,13 +36,27 @@
                 <div class="block" id="block8"></div>
                 <div class="block" id="block9"></div>
             </div>
+
+            <p class="answer text-center fs-3 pt-3 ps-5"></p>
         </section>
+
+        <div class="row pt-5">
+            <div class="col-5"></div>
+            <button class="col-2 randomButton justify-content-center fs-4">Random Selection</button>
+            <div class="col-5"></div>
+        </div>    
 
         <div class="row pt-5">
             <div class="col-5"></div>
             <button class="col-2 playButton justify-content-center fs-4">Play Game</button>
             <div class="col-5"></div>
-        </div>    
+        </div> 
+        
+        <div class="row pt-5">
+            <div class="col-5"></div>
+            <button class="col-2 againButton justify-content-center fs-4">Play again</button>
+            <div class="col-5"></div>
+        </div> 
     </main>
     <script src="./JS/app.js"></script>
 </body>

@@ -10,7 +10,14 @@ main {
 }
 
 .playButton {
-    background-color: lightgrey;
+    border-radius: 10%;
+}
+
+.randomButton {
+    border-radius: 10%;
+}
+
+.againButton {
     border-radius: 10%;
 }
 
